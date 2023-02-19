@@ -1,7 +1,7 @@
-import React from "react";
-import logo from "../assets/logo.png";
-import { BsFacebook, BsTwitter, BsInstagram } from "react-icons/bs";
-import { FaTiktok } from "react-icons/fa";
+import React from "react"
+import logo from "../assets/logo.png"
+import { BsFacebook, BsTwitter, BsInstagram } from "react-icons/bs"
+import { FaTiktok } from "react-icons/fa"
 export default function Footer() {
   const links = [
     {
@@ -20,13 +20,8 @@ export default function Footer() {
       title: "Social",
       data: ["Twiiter", "Instagram"],
     },
-  ];
-  const socialLink = [
-    <BsFacebook />,
-    <BsTwitter />,
-    <BsInstagram />,
-    <FaTiktok />,
-  ];
+  ]
+  const socialLink = [<BsFacebook />, <BsTwitter />, <BsInstagram />, <FaTiktok />]
   return (
     <footer>
       <div className="upper">
@@ -52,14 +47,14 @@ export default function Footer() {
                   ))}
                 </ul>
               </div>
-            );
+            )
           })}
         </div>
       </div>
       <div className="lower">
         <span>&copy; Copyright 2022 NFT</span>
-        <span>Launching August 2022</span>
+        <span>Already live on all marketplaces</span>
       </div>
     </footer>
-  );
+  )
 }

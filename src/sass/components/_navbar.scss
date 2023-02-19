@@ -22,6 +22,8 @@ nav {
       display: flex;
       gap: 4rem;
       li {
+        cursor: pointer;
+
         .dark {
           color: black;
         }
@@ -104,6 +106,7 @@ nav {
           &:last-of-type {
             display: none;
           }
+          cursor: pointer;
         }
       }
     }

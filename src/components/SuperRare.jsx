@@ -1,9 +1,9 @@
-import React from "react";
-import Card from "./Card";
-import super1 from "../assets/super1.png";
-import super2 from "../assets/super2.png";
-import super3 from "../assets/super3.png";
-import super4 from "../assets/super4.png";
+import React from "react"
+import Card from "./Card"
+import super1 from "../assets/super1.png"
+import super2 from "../assets/super2.png"
+import super3 from "../assets/super3.png"
+import super4 from "../assets/super4.png"
 
 export default function SuperRare() {
   const data = [
@@ -39,14 +39,13 @@ export default function SuperRare() {
       tag: 12983,
       time: 1,
     },
-  ];
+  ]
   return (
     <div className="super-rare">
       <div className="title-container">
-        <h2 className="title">LE Super Rare Auction</h2>
+        <h2 className="title">BEST NFT'S IN THE SPACE</h2>
         <p className="description">
-          We have released four limited edition NFT's early which which can be
-          bid on via <a href="#">OpenSea</a>.
+          Alpha Room DAO nfts, is a unique key to the best crypto alpha sources.
         </p>
       </div>
       <div className="cards">
@@ -63,5 +62,5 @@ export default function SuperRare() {
         ))}
       </div>
     </div>
-  );
+  )
 }
