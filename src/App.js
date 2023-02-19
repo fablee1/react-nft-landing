@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react"
-import Clients from "./components/Clients"
 import Footer from "./components/Footer"
 import Free from "./components/Free"
 import Home from "./components/Home"
